@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  height: 100%;
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(121,9,9,1) 100%);
+}
+
+#app {
+  margin: auto;
+  max-width: 90%;
+  max-height: 90%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#app > .card {
+  overflow: auto;
+}
+
+#member-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
